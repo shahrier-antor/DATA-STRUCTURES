@@ -1,6 +1,6 @@
 #include<bits/stdc++.h>
 #define mx 100
-using namespace std;
+using namespace std ;
 int p[mx];
   int vertex,ed;
 void makeset(int n)
@@ -37,7 +37,7 @@ void k()
             ans+=e[i].w;
         }
     }
-    cout<< ans<< endl;
+    cout<< ans<< endl ;
 }
 int main()
 {
