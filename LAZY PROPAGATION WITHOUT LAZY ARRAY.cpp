@@ -4,7 +4,7 @@ using namespace std;
 #define mx 100001
 int arr[mx];
 //int tree[mx*4];
-//int lazy[mx*4];
+//int lazy[mx*4] ;
 struct info{
     int prop,sum;
 }tree[mx*4];
@@ -33,7 +33,7 @@ void update(int node,int b,int e,int i,int j,int val)
     // fully in the range
     if(b>=i&&e<=j)
     {
-        tree[node].sum+=((e-b+1)*val);
+        tree[node].sum+=((e-b+1)*val );
         tree[node].prop+=val;
 
         return;// this means we have postponed
