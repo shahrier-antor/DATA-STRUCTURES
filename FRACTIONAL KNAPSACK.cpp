@@ -7,7 +7,7 @@ bool cmp(PII a,PII b)
     // we want to return a.price/a.weight>b.price/b.weight
     // to keep the precision we multiply by cross
     // price= second....... weight =first
-    // going to sort according to this condition
+    /// going to sort according to this condition
      return a.second*b.first>b.second*a.first;
 }
 void fractionalknapsack()
